@@ -1,0 +1,2 @@
+version=3
+https://download.pureftpd.org/pub/pure-ftpd/releases pure-ftpd-(.+)\.tar\.bz2

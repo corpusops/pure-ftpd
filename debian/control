@@ -1,0 +1,79 @@
+Source: pure-ftpd
+Section: net
+Priority: optional
+Maintainer: Stefan Hornburg (Racke) <racke@linuxia.de>
+Build-Depends: debhelper (>= 5), libpam-dev, libcap2-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libldap2-dev, default-libmysqlclient-dev|libmysqlclient-dev, libpq-dev, libsodium-dev, libssl-dev, openssl (>= 0.9.6), po-debconf
+Build-Conflicts: libmysqlclient10-dev
+Standards-Version: 4.0.0
+Homepage: http://www.pureftpd.org/
+
+Package: pure-ftpd-common
+Architecture: all
+Depends:  ${misc:Depends}, libpam-modules, debconf | debconf-2.0, perl
+Replaces: pure-ftpd (<< 1.0.0)
+Recommends: pure-ftpd
+Conflicts: suidmanager (<< 0.50)
+Description: Pure-FTPd FTP server (Common Files)
+ This package provides files shared between the three pure-ftpd binary
+ packages like startup scripts, documentation, and examples.
+
+Package: pure-ftpd
+Architecture: any
+Depends:  ${misc:Depends}, lsb-base (>= 3.2-14), openbsd-inetd | inet-superserver, pure-ftpd-common (=${source:Version}), ${shlibs:Depends}
+Provides: ftp-server
+Conflicts: ftp-server
+Replaces: ftp-server
+Description: Secure and efficient FTP server
+ Free, secure, production-quality and standard-conformant FTP server.
+ Features include chrooted home directories,
+ virtual domains, built-in 'ls', anti-warez system, configurable ports for
+ passive downloads, FXP protocol, bandwidth throttling, ratios,
+ fortune files, Apache-like log files, fast standalone mode, atomic uploads,
+ text / HTML / XML real-time status report, virtual users, virtual quotas, 
+ privilege separation, SSL/TLS and more.
+
+Package: pure-ftpd-mysql
+Architecture: any
+Depends:  ${misc:Depends}, lsb-base (>= 3.2-14), pure-ftpd-common (=${source:Version}), ${shlibs:Depends}, openbsd-inetd | inet-superserver
+Provides: ftp-server, pure-ftpd
+Conflicts: ftp-server, pure-ftpd
+Replaces: ftp-server, pure-ftpd
+Description: Secure and efficient FTP server with MySQL user authentication
+ Pure-FTPd is a fast, production-quality, standards-conformant FTP
+ server based upon Troll-FTPd. Features include chrooted home directories,
+ virtual domains, built-in 'ls', anti-warez system, configurable ports for
+ passive downloads, FXP protocol, bandwidth throttling, ratios,
+ fortune files, Apache-like log files, fast standalone mode, atomic uploads,
+ text / HTML / XML real-time status report, virtual users, virtual quotas, 
+ privilege separation, SSL/TLS and more.
+
+Package: pure-ftpd-postgresql
+Architecture: any
+Depends:  ${misc:Depends}, lsb-base (>= 3.2-14), pure-ftpd-common (=${source:Version}), ${shlibs:Depends}, openbsd-inetd | inet-superserver
+Provides: ftp-server, pure-ftpd
+Conflicts: ftp-server, pure-ftpd
+Replaces: ftp-server, pure-ftpd
+Description: Secure and efficient FTP server with PostgreSQL user authentication
+ Pure-FTPd is a fast, production-quality, standards-conformant FTP
+ server based upon Troll-FTPd. Features include chrooted home directories,
+ virtual domains, built-in 'ls', anti-warez system, configurable ports for
+ passive downloads, FXP protocol, bandwidth throttling, ratios,
+ fortune files, Apache-like log files, fast standalone mode, atomic uploads,
+ text / HTML / XML real-time status report, virtual users, virtual quotas, 
+ privilege separation, SSL/TLS and more.
+
+Package: pure-ftpd-ldap
+Architecture: any
+Depends:  ${misc:Depends}, lsb-base (>= 3.2-14), pure-ftpd-common (=${source:Version}), ${shlibs:Depends}, openbsd-inetd | inet-superserver
+Provides: ftp-server, pure-ftpd
+Conflicts: ftp-server, pure-ftpd
+Replaces: ftp-server, pure-ftpd
+Description: Secure and efficient FTP server with LDAP user authentication
+ Pure-FTPd is a fast, production-quality, standards-conformant FTP
+ server based upon Troll-FTPd. Features include chrooted home directories,
+ virtual domains, built-in 'ls', anti-warez system, configurable ports for
+ passive downloads, FXP protocol, bandwidth throttling, ratios,
+ fortune files, Apache-like log files, fast standalone mode, atomic uploads,
+ text / HTML / XML real-time status report, virtual users, virtual quotas, 
+ privilege separation, SSL/TLS and more.
+

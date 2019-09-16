@@ -1,0 +1,198 @@
+# translation of po-debconf template to German
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans#
+#    Developers do not need to manually edit POT or PO files.
+#
+# Jens Nachtigall <nachtigall@web.de>, 2004, 2005.
+# Matthias Julius <mdeb@julius-net.net>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: pure-ftpd 1.0.21-5\n"
+"Report-Msgid-Bugs-To: pure-ftpd@packages.debian.org\n"
+"POT-Creation-Date: 2010-01-11 09:05+0000\n"
+"PO-Revision-Date: 2006-11-24 18:22-0500\n"
+"Last-Translator: Matthias Julius <mdeb@julius-net.net>\n"
+"Language-Team: German <debian-l10n-german@lists.debian.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#. Type: select
+#. Choices
+#: ../pure-ftpd-common.templates:1001
+msgid "inetd, standalone"
+msgstr "inetd, Daemon"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid "Run pure-ftpd from inetd or as a standalone server:"
+msgstr "Pure-ftpd über inetd oder als eigenen Daemon starten:"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Pure-ftpd can be run from inetd or as a standalone daemon. Using inetd is a "
+"suitable option for small ftp servers because the inetd super-server will "
+"only launch pure-ftpd to handle incoming connections. Standalone operation "
+"is more efficient for busy ftp sites."
+msgstr ""
+"Pure-ftpd kann über inetd oder als eigener Daemon gestartet werden. Die "
+"Verwendung von inetd ist für kleinere FTP-Server geeignet, da der Super-"
+"Server inetd nur dann pure-ftpd starten wird, wenn auch Anfragen für pure-"
+"ftpd vorliegen. Ein eigener Daemon hingegen arbeitet bei stark ausgelasteten "
+"FTP-Sites effizienter."
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Keep in mind that a few options only work in standalone mode, such as "
+"limiting connections per-IP and binding the server to a specific IP address."
+msgstr ""
+"Beachten Sie bitte, dass einige Optionen nur mit einem Daemon funktionieren. "
+"Dazu zählt u.a. die Verbindungs-Begrenzung auf IP-Basis oder das Binden des "
+"Servers an eine bestimmte IP-Adresse."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid "Do you want pure-ftpwho to be installed setuid root?"
+msgstr "Möchten Sie, dass pure-ftpwho setuid-root installiert wird?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"The pure-ftpwho program only works with root privileges. Since it's a fairly "
+"trivial program, this poses little security risk. Still, it is only "
+"recommended that you install any program setuid root if you need it."
+msgstr ""
+"Das Programm pure-ftpwho funktioniert nur mit root-Rechten. Da es sich dabei "
+"um ein ziemlich einfaches Programm handelt, stellt das ein geringes "
+"Sicherheitsrisiko dar. Dennoch wird empfohlen, ein Programm nur dann setuid-"
+"root zu installieren, wenn Sie dies auch wirklich benötigen."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"You can always change your mind later by reconfiguring this package with "
+"\"dpkg-reconfigure pure-ftpd-common\"."
+msgstr ""
+"Sollten Sie Ihre Meinung später ändern, können Sie das Paket mit »dpkg-"
+"reconfigure pure-ftpd-common« neu konfigurieren."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid "Your installation uses an obsolete configuration method"
+msgstr "Ihre Installation verwendet eine veraltete Konfigurationsmethode"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Older versions of the pure-ftpd debian package used command-line options "
+"specified in /etc/default/pure-ftpd. This has been changed because there was "
+"no easy way to use these options when the daemon was spawned from inetd."
+msgstr ""
+"Ältere Versionen des Debian-Paketes pure-ftpd verwendeten Kommandozeilen-"
+"Optionen, die in /etc/default/pure-ftpd niedergeschrieben waren. Das wurde "
+"nun geändert, da es keine einfache Möglichkeit gab, diese Optionen zu "
+"verwenden, wenn pure-ftpd von inetd gestartet wurde."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Pure-ftpd now uses the /etc/pure-ftpd.conf file (via pure-config.pl) for "
+"configuration in either standalone or inetd mode. You should check that any "
+"customization you've made in the /etc/default/pure-ftpd OPTIONS are "
+"reflected in /etc/pure-ftpd.conf, as it is not possible for the moment to "
+"use a way to do this automatically that would work for all cases. You can "
+"then delete the unused OPTIONS line to avoid seeing this message in the "
+"future."
+msgstr ""
+"Pure-ftpd verwendet nun sowohl im Daemon- als auch im inetd-Modus die Datei /"
+"etc/pure-ftpd.conf (mittels pure-config.pl) zur Konfiguration. Sie sollten "
+"überprüfen, ob alle Veränderungen, die Sie an der OPTIONS-Variable in /etc/"
+"default/pure-ftpd vorgenommen haben, nun auch in /etc/pure-ftpd.conf "
+"vorkommen. Leider gibt es zurzeit keine automatische Anpassung, die in allen "
+"Fällen funktionieren würde. Nach der manuellen Anpassung können Sie die "
+"OPTIONS-Zeile löschen, um zu verhindern, dass Sie diese Nachricht in Zukunft "
+"erneut sehen."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid "Your old pure-ftpd configuration from inetd.conf has been saved"
+msgstr ""
+"Ihre alte »pure-ftpd«-Konfiguration aus der inetd.conf wurde gespeichert."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid ""
+"You are upgrading an old version of the pure-ftpd debian package that caused "
+"any configuration that was in /etc/inetd.conf to be lost.  Your old "
+"configuration has been saved in /etc/inetd.conf-pureftpd."
+msgstr ""
+"Sie aktualisieren eine ältere Version des Debian-Paketes pure-ftpd, die "
+"dafür verantwortlich war, dass alle Einstellungen in der /etc/inetd.conf "
+"verloren gingen. Ihre alten Einstellungen wurden in /etc/inetd.conf-pureftpd "
+"gespeichert."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid "Default MinUID value has been changed to 1000"
+msgstr "MinUID-Standardwert wurde auf 1000 geändert"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid ""
+"The default value for the -u flag stored in /etc/pure-ftpd/conf/MinUID has "
+"been changed from 100 to 1000 in order to comply with the Debian policy. "
+"This may break your Pure-FTPd setup if you are using virtual users with an "
+"uid below 1000."
+msgstr ""
+"Der Standardwert für die Option »-u«, der in /etc/pure-ftpd/conf/MinUID "
+"gespeichert wird, wurde von 100 auf 1000 geändert, um der Debian-Policy zu "
+"entsprechen. Das kann dafür sorgen, dass Ihre bisherige Pure-FTPd-"
+"Einrichtung nicht mehr korrekt funktioniert, sofern Sie virtuelle Server mit "
+"einer Benutzer-ID (uid) unter 1000 verwenden."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid "Enable virtual chroots ?"
+msgstr "Virtuelle »chroots« aktivieren?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid ""
+"Chrooted users are usually restricted to their home directory. With virtual "
+"chroots symbolic links are always followed, even if they are pointing to "
+"directories not located in the user's home directory.  This is useful for "
+"having shared directories like a symbolic link to /var/incoming in every "
+"home directory."
+msgstr ""
+"Benutzer innerhalb eines »chroots« haben normalerweise keinen Zugriff auf "
+"Dateien außerhalb ihres Home-Verzeichnisses. Mit virtuellen »chroots« können "
+"Benutzer symbolischen Links sogar dann folgen, wenn diese auf Verzeichnisse "
+"außerhalb des Home-Verzeichnisses des Benutzers verweisen. Das ist für "
+"gemeinsam genutzte Verzeichnisse nützlich, wie beispielsweise ein "
+"symbolischer Link aus jedem Home-Verzeichnis auf /var/incoming."

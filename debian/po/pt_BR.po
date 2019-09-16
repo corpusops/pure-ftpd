@@ -1,0 +1,184 @@
+# Debconf translations for pure-ftpd.
+# Copyright (C) 2011 THE pure-ftpd's COPYRIGHT HOLDER.
+# This file is distributed under the same license as the pure-ftpd package.
+# Flamarion Jorge <jorge.flamarion@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.28-3\n"
+"Report-Msgid-Bugs-To: pure-ftpd@packages.debian.org\n"
+"POT-Creation-Date: 2010-01-11 09:05+0000\n"
+"PO-Revision-Date: 2011-01-14 11:35-0200\n"
+"Last-Translator: Flamarion Jorge <jorge.flamarion@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
+"org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"pt_BR utf-8\n"
+
+#. Type: select
+#. Choices
+#: ../pure-ftpd-common.templates:1001
+msgid "inetd, standalone"
+msgstr "inetd, autônomo"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid "Run pure-ftpd from inetd or as a standalone server:"
+msgstr "Executar o pure-ftpd a partir do inetd ou como um servidor autônomo:"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Pure-ftpd can be run from inetd or as a standalone daemon. Using inetd is a "
+"suitable option for small ftp servers because the inetd super-server will "
+"only launch pure-ftpd to handle incoming connections. Standalone operation "
+"is more efficient for busy ftp sites."
+msgstr ""
+"O pure-ftpd pode ser executado a partir do inetd ou como um daemon autônomo. "
+"Usar inetd é adequado para pequenos servidores ftp porque o inetd super "
+"server somente vai lançar o pure-ftpd para manipular conexões de entrada. "
+"Operação autônoma é mais eficiente para servidores ftp ocupados."
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Keep in mind that a few options only work in standalone mode, such as "
+"limiting connections per-IP and binding the server to a specific IP address."
+msgstr ""
+"Tenha em mente que algumas opções só funcionam em modo autônomo, como "
+"limitar conexões por IP e vincular o servidor a um endereço IP específico."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid "Do you want pure-ftpwho to be installed setuid root?"
+msgstr "Você quer que o pure-ftpwho seja instalado com setuid root?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"The pure-ftpwho program only works with root privileges. Since it's a fairly "
+"trivial program, this poses little security risk. Still, it is only "
+"recommended that you install any program setuid root if you need it."
+msgstr ""
+"O programa pure-ftpwho somente funciona com privilégios de root. Como é um "
+"programa bastante trivial, isto representa um risco de segurança pequeno. "
+"Ainda assim, é recomendado que você somente instale qualquer programa com "
+"setuid root se você dele precisar."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"You can always change your mind later by reconfiguring this package with "
+"\"dpkg-reconfigure pure-ftpd-common\"."
+msgstr ""
+"Você sempre pode modificar sua opção depois pela reconfiguração deste pacote "
+"com \"dpkg-reconfigure pure-ftpd-common\"."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid "Your installation uses an obsolete configuration method"
+msgstr "Sua instalação usa um método obsoleto de configuração"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Older versions of the pure-ftpd debian package used command-line options "
+"specified in /etc/default/pure-ftpd. This has been changed because there was "
+"no easy way to use these options when the daemon was spawned from inetd."
+msgstr ""
+"Versões antigas do pacote debian pure-ftpd usam opções de linha de comando "
+"especificadas em /etc/default/pure-ftpd. Isso foi modificado porque não "
+"havia nenhuma maneira fácil para usar estas opções quando o daemon era "
+"iniciado a partir do inetd."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Pure-ftpd now uses the /etc/pure-ftpd.conf file (via pure-config.pl) for "
+"configuration in either standalone or inetd mode. You should check that any "
+"customization you've made in the /etc/default/pure-ftpd OPTIONS are "
+"reflected in /etc/pure-ftpd.conf, as it is not possible for the moment to "
+"use a way to do this automatically that would work for all cases. You can "
+"then delete the unused OPTIONS line to avoid seeing this message in the "
+"future."
+msgstr ""
+"Agora o pure-ftpd usa o arquivo /etc/pure-ftpd.conf (via pure-config.pl) "
+"para configuração tanto no modo autônomo como no modo inetd. Você deve "
+"verificar que qualquer personalização que você tenha feito em /etc/default/"
+"pure-ftpd OPTIONS é refletida em /etc/pure-ftpd.conf, pois não é possível no "
+"momento usar uma maneira de fazer isso automaticamente e que atenda todos os "
+"casos. Você pode então apagar a linha OPTIONS não mais usada para evitar de "
+"ver esta mensagem no futuro."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid "Your old pure-ftpd configuration from inetd.conf has been saved"
+msgstr "Sua configuração antiga do pure-ftpd do inetd.conf foi salva"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid ""
+"You are upgrading an old version of the pure-ftpd debian package that caused "
+"any configuration that was in /etc/inetd.conf to be lost.  Your old "
+"configuration has been saved in /etc/inetd.conf-pureftpd."
+msgstr ""
+"Você está atualizando uma versão antiga do pacote debian pure-ftpd que pode "
+"causar a perda de qualquer configuração que estava no /etc/inetd.conf. Sua "
+"antiga configuração foi salva em /etc/inetd.conf-pureftpd."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid "Default MinUID value has been changed to 1000"
+msgstr "Valor MinUID padrão foi modificado para 1000"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid ""
+"The default value for the -u flag stored in /etc/pure-ftpd/conf/MinUID has "
+"been changed from 100 to 1000 in order to comply with the Debian policy. "
+"This may break your Pure-FTPd setup if you are using virtual users with an "
+"uid below 1000."
+msgstr ""
+"O valor padrão para a opção -u armazenado em /etc/pure-ftpd/conf/MinUID foi "
+"modificado de 100 para 1000 a fim de cumprir a política Debian. Isto pode "
+"quebrar sua configuração do Pure-FTPd se você está usando usuários virtuais "
+"com um uid abaixo de 1000."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid "Enable virtual chroots ?"
+msgstr "Habilitar chroots virtuais?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid ""
+"Chrooted users are usually restricted to their home directory. With virtual "
+"chroots symbolic links are always followed, even if they are pointing to "
+"directories not located in the user's home directory.  This is useful for "
+"having shared directories like a symbolic link to /var/incoming in every "
+"home directory."
+msgstr ""
+"Usuários em chroot normalmente são restritos aos seus diretórios home. Com "
+"chroots virtuais links simbólicos sempre são seguidos, mesmo que eles "
+"apontem para diretórios que não estejam localizados no diretório home do "
+"usuário. Isto é útil para ter diretórios compartilhados, como um link "
+"simbólico para /var/incoming em todos diretórios home."

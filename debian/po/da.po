@@ -1,0 +1,181 @@
+# Danish translation pure-ftpd.
+# Copyright (C) 2011 pure-ftpd & nedenstående oversættere.
+# This file is distributed under the same license as the pure-ftpd package.
+# Joe Hansen <joedalton2@yahoo.dk>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pure-ftpd\n"
+"Report-Msgid-Bugs-To: pure-ftpd@packages.debian.org\n"
+"POT-Creation-Date: 2010-01-11 09:05+0000\n"
+"PO-Revision-Date: 2011-07-15 17:30+01:00\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
+"Language-Team: Danish <debian-l10n-danish@lists.debian.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../pure-ftpd-common.templates:1001
+msgid "inetd, standalone"
+msgstr "inetd, alenestående"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid "Run pure-ftpd from inetd or as a standalone server:"
+msgstr "Kør pure-ftpd fra inetd eller som en alenestående server:"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Pure-ftpd can be run from inetd or as a standalone daemon. Using inetd is a "
+"suitable option for small ftp servers because the inetd super-server will "
+"only launch pure-ftpd to handle incoming connections. Standalone operation "
+"is more efficient for busy ftp sites."
+msgstr ""
+"Pure-ftpd kan køres fra inetd eller som en alenestående dæmon. Brug af inetd "
+"er et egnet tilvalg for små ftp-servere, da inetd superserveren kun vil "
+"opstarte pure-ftpd til at håndtere indgående forbindelser. Alenestående "
+"handling er mere effektivt for travle ftp-sider."
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Keep in mind that a few options only work in standalone mode, such as "
+"limiting connections per-IP and binding the server to a specific IP address."
+msgstr ""
+"Husk at nogle få indstillinger kun virker i alenestående tilstand, såsom "
+"begrænsning af antal forbindelser per IP og binding af serveren til en "
+"specifik IP-adresse."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid "Do you want pure-ftpwho to be installed setuid root?"
+msgstr "Ønsker du, at pure-ftpwho skal installeres setuid root?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"The pure-ftpwho program only works with root privileges. Since it's a fairly "
+"trivial program, this poses little security risk. Still, it is only "
+"recommended that you install any program setuid root if you need it."
+msgstr ""
+"Programmet pure-ftpwho virker kun med rodprivilegier. Da det er et ret "
+"simpelt program, udgør dette kun en lille sikkerhedsrisiko. Det er dog "
+"stadig kun anbefalet at installere et program som setuid root, hvis du har "
+"brug for det."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"You can always change your mind later by reconfiguring this package with "
+"\"dpkg-reconfigure pure-ftpd-common\"."
+msgstr ""
+"Du kan altid skifte mening senere ved at rekonfigurere denne pakke med »dpkg-"
+"reconfigure pure-ftpd-common«."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid "Your installation uses an obsolete configuration method"
+msgstr "Din installation bruger en forældet konfigurationsmetode"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Older versions of the pure-ftpd debian package used command-line options "
+"specified in /etc/default/pure-ftpd. This has been changed because there was "
+"no easy way to use these options when the daemon was spawned from inetd."
+msgstr ""
+"Ældre versioner af debianpakken pure-ftpd brugte kommandlinjetilvalg angivet "
+"i /etc/default/pure-ftpd. Dette er blevet ændret, da der ikke var nogen nem "
+"måde at bruge disse tilvalg, når dæmonen udgik fra inetd."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Pure-ftpd now uses the /etc/pure-ftpd.conf file (via pure-config.pl) for "
+"configuration in either standalone or inetd mode. You should check that any "
+"customization you've made in the /etc/default/pure-ftpd OPTIONS are "
+"reflected in /etc/pure-ftpd.conf, as it is not possible for the moment to "
+"use a way to do this automatically that would work for all cases. You can "
+"then delete the unused OPTIONS line to avoid seeing this message in the "
+"future."
+msgstr ""
+"Pure-ftpd bruger nu filen /etc/pure-ftpd-conf (med pure-config.pl) for "
+"konfiguration i enten alenestående eller inetd-tilstand. Du bør kontrollere "
+"at alle tilpasninger, du har lavet i /etc/default/pure-ftpd OPTIONS, er "
+"afspejlet i /etc/pure-ftpd.conf, da det i øjeblikket ikke er muligt at bruge "
+"en måde, som kan gøre dette automatisk og virke i alle tilfælde. Du kan "
+"efterfølgende så slette den ubrugte OPTIONS-linje for at undgå at se denne "
+"besked i fremtiden."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid "Your old pure-ftpd configuration from inetd.conf has been saved"
+msgstr "Din gamle konfiguration for pure-ftpd fra inetd.conf er blevet gemt"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid ""
+"You are upgrading an old version of the pure-ftpd debian package that caused "
+"any configuration that was in /etc/inetd.conf to be lost.  Your old "
+"configuration has been saved in /etc/inetd.conf-pureftpd."
+msgstr ""
+"Du opgraderer en gammel version af debianpakken pure-ftpd, som medførte at "
+"såfremt der var en konfiguration i /etc/inetd.conf, så gik den tabt. Din "
+"gamle konfiguration er blevet gemt i /etc/inetd.conf-pureftpd."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid "Default MinUID value has been changed to 1000"
+msgstr "Standard MinUID-værdi er blevet ændret til 1000"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid ""
+"The default value for the -u flag stored in /etc/pure-ftpd/conf/MinUID has "
+"been changed from 100 to 1000 in order to comply with the Debian policy. "
+"This may break your Pure-FTPd setup if you are using virtual users with an "
+"uid below 1000."
+msgstr ""
+"Standardværdien for flaget -u gemt i /etc/pure-ftpd/conf/MinUID er blevet "
+"ændret fra 100 til 1000 for at overholde Debianpolitikken. Dette kan "
+"ødelægge din Pure-FTPd-opsætning, hvis du bruger virtuelle brugere med en "
+"uid under 1000."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid "Enable virtual chroots ?"
+msgstr "Aktivere virtuel chroot'er?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid ""
+"Chrooted users are usually restricted to their home directory. With virtual "
+"chroots symbolic links are always followed, even if they are pointing to "
+"directories not located in the user's home directory.  This is useful for "
+"having shared directories like a symbolic link to /var/incoming in every "
+"home directory."
+msgstr ""
+"Chrootede brugere er normalt begrænset til deres hjemmemappe. Med virtuelle "
+"chroot'er bliver symbolske henvisninger altid fulgt, også selv om de peger "
+"på mapper, som ikke er placeret i brugerens hjemmemappe. Dette er brugbart "
+"til at have delte mapper såsom en symbolsk henvisning til /var/incoming i "
+"alle hjemmemapper."

@@ -1,0 +1,180 @@
+# Vietnamese translation for Pure-FTPd.
+# Copyright © 2008 Free Software Foundation, Inc.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pure-ftpd 1.0.21-11.3\n"
+"Report-Msgid-Bugs-To: pure-ftpd@packages.debian.org\n"
+"POT-Creation-Date: 2010-01-11 09:05+0000\n"
+"PO-Revision-Date: 2008-09-24 22:26+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.7b3\n"
+
+#. Type: select
+#. Choices
+#: ../pure-ftpd-common.templates:1001
+msgid "inetd, standalone"
+msgstr "inetd, độc lập"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid "Run pure-ftpd from inetd or as a standalone server:"
+msgstr "Chạy pure-ftpd từ inetd hoặc chạy nó là trình phục vụ độc lập:"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Pure-ftpd can be run from inetd or as a standalone daemon. Using inetd is a "
+"suitable option for small ftp servers because the inetd super-server will "
+"only launch pure-ftpd to handle incoming connections. Standalone operation "
+"is more efficient for busy ftp sites."
+msgstr ""
+"Pure-ftpd chạy được từ trình nền inetd hoặc là một trình nền độc lập. Dùng "
+"inetd là một tùy chọn thích hợp với máy phục vụ FTP nhỏ, vì siêu trình phục "
+"vụ inetd sẽ chỉ khởi chạy pure-ftpd để xử lý kết nối gửi đến. Thao tác độc "
+"lập cũng hữu hiệu hơn cho địa chỉ FTP bận."
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Keep in mind that a few options only work in standalone mode, such as "
+"limiting connections per-IP and binding the server to a specific IP address."
+msgstr ""
+"Ghi nhớ rằng vài tùy chọn chỉ hoạt động ở chế độ độc lập, v.d. hạn chế kết "
+"nối theo địa chỉ IP, và tổ hợp trình phục vụ với một địa chỉ IP nào đó."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid "Do you want pure-ftpwho to be installed setuid root?"
+msgstr "Bạn có muốn cài đặt pure-ftpwho là setuid root không?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"The pure-ftpwho program only works with root privileges. Since it's a fairly "
+"trivial program, this poses little security risk. Still, it is only "
+"recommended that you install any program setuid root if you need it."
+msgstr ""
+"Chương trình pure-ftpwho chỉ chạy với quyền người chủ (root). Vì nó là một "
+"chương trình hơi không quan trọng, trường hợp này ít rủi ro bảo mật. Tuy "
+"nhiên, vẫn còn khuyên bạn chỉ cài đặt phần mềm là setuid root nếu cần thiết."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"You can always change your mind later by reconfiguring this package with "
+"\"dpkg-reconfigure pure-ftpd-common\"."
+msgstr ""
+"Luôn luôn có thể thay đổi ý muốn sau này bằng cách cấu hình lại gói này dùng "
+"câu lệnh « dpkg-reconfigure pure-ftpd-common »."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid "Your installation uses an obsolete configuration method"
+msgstr "Bản cài đặt này dùng một phương pháp cấu hình quá cũ"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Older versions of the pure-ftpd debian package used command-line options "
+"specified in /etc/default/pure-ftpd. This has been changed because there was "
+"no easy way to use these options when the daemon was spawned from inetd."
+msgstr ""
+"Phiên bản gói pure-ftpd cũ đã dùng các tùy chọn dòng lệnh đưa ra trong tập "
+"tin « /etc/default/pure-ftpd ». Trường hợp này đã thay đổi vì không dễ dùng "
+"tùy chọn này khi trình nền được khởi tạo từ inetd."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Pure-ftpd now uses the /etc/pure-ftpd.conf file (via pure-config.pl) for "
+"configuration in either standalone or inetd mode. You should check that any "
+"customization you've made in the /etc/default/pure-ftpd OPTIONS are "
+"reflected in /etc/pure-ftpd.conf, as it is not possible for the moment to "
+"use a way to do this automatically that would work for all cases. You can "
+"then delete the unused OPTIONS line to avoid seeing this message in the "
+"future."
+msgstr ""
+"Pure-ftpd lúc bây giờ sử dụng tập tin cấu hình « /etc/pure-ftpd.conf "
+"» (thông qua « pure-config.pl ») để cấu hình ở chế độ hoặc độc lập hoặc "
+"inetd. Có nên kiểm tra bất cứ sự sửa đổi nào bạn đã làm trong các TÙY CHỌN "
+"(OPTIONS) « /etc/default/pure-ftpd » cũng phản hồi trong « /etc/pure-ftpd."
+"conf », vì chưa tìm một phương pháp tự động hữu hiệu trong mọi trường hợp. "
+"Sau đó thì bạn có thể xoá dòng TÙY CHỌN không dùng để tránh xem thông điệp "
+"này lần nữa."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid "Your old pure-ftpd configuration from inetd.conf has been saved"
+msgstr "Cấu hình pure-ftpd cũ (từ inetd.conf) đã được lưu"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid ""
+"You are upgrading an old version of the pure-ftpd debian package that caused "
+"any configuration that was in /etc/inetd.conf to be lost.  Your old "
+"configuration has been saved in /etc/inetd.conf-pureftpd."
+msgstr ""
+"Bạn đang nâng cấp một phiên bản cũ của gói Debian pure-ftpd mà gây ra bất cứ "
+"cấu hình nào nằm trong « /etc/inetd.conf » bị mất. Cấu hình cũ đã được lưu "
+"vào « /etc/inetd.conf-pureftpd »."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid "Default MinUID value has been changed to 1000"
+msgstr "Giá trị MinUID mặc định đã được thay đổi thành 1000"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid ""
+"The default value for the -u flag stored in /etc/pure-ftpd/conf/MinUID has "
+"been changed from 100 to 1000 in order to comply with the Debian policy. "
+"This may break your Pure-FTPd setup if you are using virtual users with an "
+"uid below 1000."
+msgstr ""
+"Giá trị mặc định cho cờ « -u » được lưu trong « /etc/pure-ftpd/conf/MinUID » "
+"đã được thay đổi từ 100 thành 1000, để tuân theo chính sách Debian. Trường "
+"hợp này có thể phá vỡ thiết lập Pure-FTPd nếu bạn có người dùng ảo với UID "
+"dưới 1000."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid "Enable virtual chroots ?"
+msgstr "Bật chroot ảo không?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid ""
+"Chrooted users are usually restricted to their home directory. With virtual "
+"chroots symbolic links are always followed, even if they are pointing to "
+"directories not located in the user's home directory.  This is useful for "
+"having shared directories like a symbolic link to /var/incoming in every "
+"home directory."
+msgstr ""
+"Người dùng nằm trong chroot thì thường bị hạn chế thành thư mục chính của "
+"mình. Đối với chroot ảo, lúc nào cũng theo liên kết tượng trưng, thậm chí "
+"nếu nó chỉ tới một thư mục không nằm trong thư mục chính đó. Trường hợp này "
+"hữu ích khi có thư mục dùng chung, v.d. mỗi thư mục chính chứa một liên kết "
+"tượng trưng tới « /var/incoming »."
