@@ -1,0 +1,886 @@
+pure-ftpd (1.0.49-eoan-44ubuntu38) eoan; urgency=medium
+
+  * packaging for eoan
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 19:50:16 +0200
+
+pure-ftpd (1.0.49-eoan-44ubuntu37) eoan; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 19:50:10 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu36) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 19:50:05 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu35) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 19:50:00 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu34) trusty; urgency=medium
+
+  * packaging for eoan
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 17:55:11 +0200
+
+pure-ftpd (1.0.49-eoan-44ubuntu33) eoan; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 17:55:07 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu32) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 17:55:03 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu31) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 17:54:56 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu30) trusty; urgency=medium
+
+  * packaging for eoan
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 17:06:27 +0200
+
+pure-ftpd (1.0.49-eoan-44ubuntu29) eoan; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 17:06:20 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu28) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 17:06:15 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu27) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 17:06:05 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu26) trusty; urgency=medium
+
+  * packaging for eoan
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:20:47 +0200
+
+pure-ftpd (1.0.49-eoan-44ubuntu25) eoan; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:20:43 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu24) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:20:39 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu23) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:20:34 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu22) trusty; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:20:32 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu21) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:20:28 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu20) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:20:24 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu19) trusty; urgency=medium
+
+  * packaging for eoan
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:15:59 +0200
+
+pure-ftpd (1.0.49-eoan-44ubuntu18) eoan; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:15:54 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu17) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:15:49 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu16) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Tue, 17 Sep 2019 00:15:43 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu15) trusty; urgency=medium
+
+  * packaging for eoan
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 22:33:05 +0200
+
+pure-ftpd (1.0.49-eoan-44ubuntu14) eoan; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 22:33:01 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu13) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 22:32:56 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu12) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 22:32:47 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu11) trusty; urgency=medium
+
+  * packaging for eoan
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 21:49:15 +0200
+
+pure-ftpd (1.0.49-eoan-44ubuntu10) eoan; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 21:49:11 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu9) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 21:49:07 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu8) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 21:49:02 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu7) trusty; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 21:48:48 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu6) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 21:48:44 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu5) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 21:48:38 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu4) trusty; urgency=medium
+
+  * packaging for eoan
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 20:25:31 +0200
+
+pure-ftpd (1.0.49-eoan-44ubuntu3) eoan; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 20:25:24 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu2) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 20:25:19 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu1) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Mon, 16 Sep 2019 20:25:15 +0200
+
+pure-ftpd (1.0.49-trusty-44) trusty; urgency=medium
+
+  * Add support for Argon2 and scrypt hash functions (Closes: #926001)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sat, 30 Mar 2019 15:49:35 +0100
+
+pure-ftpd (1.0.47-3) unstable; urgency=medium
+
+  * Apply TLS1.3 compatibility fix from upstream (Closes: #918630). 
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed, 30 Jan 2019 08:32:50 +0100
+
+pure-ftpd (1.0.47-2) unstable; urgency=medium
+
+  * Fix lintian issues (missing-debian-source-format and debug-file-with-no-debug-symbols).
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sat, 01 Dec 2018 16:55:20 +0100
+
+pure-ftpd (1.0.47-1) unstable; urgency=medium
+
+  * New upstream release
+  * Partially fix FTCBFS: Let dh_auto_configure pass --host to ./configure.
+    (Closes: #886212, thanks to Helmut Grohne <helmut@subdivi.de>)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 30 Oct 2018 14:26:58 +0100
+
+pure-ftpd (1.0.46-1) unstable; urgency=medium
+
+  * New upstream release (Closes: #861159, #867380):
+    - Fixes bug when using MariaDB
+    - Remove patch for OpenSSL 1.1
+    - Remove example contrib/xml_python_processors.txt
+  * Update debhelper compatibility level
+  * Bump up Standards-Version to 4.0.0.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 24 Jul 2017 17:51:37 +0200
+
+pure-ftpd (1.0.43-3) unstable; urgency=medium
+
+  * Finally fix issue with /etc/default/pure-ftpd-common (Closes: #847218).
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 08 Dec 2016 13:28:56 +0100
+
+pure-ftpd (1.0.43-2) unstable; urgency=medium
+
+  * Add upstream patch for OpenSSL 1.1.x compatibility (Closes: #828516).
+  * Add Debian watch file.
+  * Fix build dependency on obsolete package libmysqlclient-dev.
+  * Remove incorrect Vcs-* fields from control file.
+  * Add NoTruncate to POD of pure-ftpd-wrapper script (Ubuntu #1166330).
+  * Bump up Standards-Version to 3.9.8.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 27 Oct 2016 14:29:26 +0200
+
+pure-ftpd (1.0.43-1) unstable; urgency=medium
+
+  * New upstream release:
+     - remove patch for PostgreSQL configuration file.
+     - remove PAM_RHOST patch.
+     - security improvements (Closes: #782353, #791420).
+     - additional cipher suites configuration options (Closes: #789205).
+  * Add -O2 to CFLAGS in order to enable hardened build features (Closes: #764537).
+  * Stop using absolute path for dpkg-statoverride (Closes: #770049).
+  * Drop conditional build-depend on libmysqlclient15-dev (Closes: #790474).
+  * Align default for TLSCipherSuite configuration with Pure-FTPd sources.
+  * Lintian fixes:
+     - replace dh_clean -k with dh_prep
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 05 Sep 2016 14:27:30 +0200
+
+pure-ftpd (1.0.36-3.2) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix "depend on perl instead of perl-modules":
+    debian/control: update Depends for pure-ftpd-common.
+    (Closes: #779117)
+
+ -- gregor herrmann <gregoa@debian.org>  Wed, 25 Feb 2015 22:20:30 +0100
+
+pure-ftpd (1.0.36-3.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * No source changes, but this gets rid of spurious /etc/default/pure-ftpd
+    conffile (closes: #688206).
+
+ -- Julien Cristau <jcristau@debian.org>  Fri, 14 Nov 2014 16:00:31 +0100
+
+pure-ftpd (1.0.36-3) unstable; urgency=medium
+
+  * Add TLSCipherSuite configuration file which only leaves TLSv1 ciphers
+    enabled and is thus safe from the Poodle attack.
+  * Add --show-options commandline option to wrapper script.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sun, 19 Oct 2014 14:36:29 +0200
+
+pure-ftpd (1.0.36-2) unstable; urgency=medium
+
+  * Add support for TLSCipherSuite to pure-ftpd-wrapper script 
+    (Closes: #701070, thanks to Pim van den Berg <pim@md.nl>).
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 01 Jul 2014 08:57:07 +0200
+
+pure-ftpd (1.0.36-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix "modifies conffiles (policy 10.7.3): /etc/default/pure-ftpd-common":
+    - don't ship /etc/default/pure-ftpd-common
+    - create it in .postinst if it doesn't exist
+    - remove it in .postrm/purge
+    - restructure .postinst a bit
+    (Closes: #688206)
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 08 Oct 2012 18:09:21 +0200
+
+pure-ftpd (1.0.36-1) unstable; urgency=low
+
+  * New upstream release, fixes external authentication (Closes: #652938,
+    thanks to Jon Daley <debian@jon.limedaley.com> for the report).
+  * Add build-arch and build-indep targets to debian/rules.
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Fri, 22 Jun 2012 08:44:54 +0200
+
+pure-ftpd (1.0.35-1) unstable; urgency=low
+
+  * New upstream release, fixes quote miscalculation.
+  * Add Debconf translation for Danish (Closes: #633986, thanks to Joe
+    Dalton <joedalton2@yahoo.dk>).
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sun, 04 Dec 2011 07:57:06 +0100
+
+pure-ftpd (1.0.32-1) unstable; urgency=high
+
+  * New upstream release, fixes glob vulnerability (Closes: #624848).
+  * Remove custom default stop values.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 02 May 2011 06:52:11 +0200
+
+pure-ftpd (1.0.30-1) unstable; urgency=high
+
+  * New upstream release, fixes TLS security flaw (Closes: #617334).
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 08 Mar 2011 08:30:11 +0100
+
+pure-ftpd (1.0.28-4) unstable; urgency=low
+
+  * Add Debconf translation for Brazilian Portuguese (Closes: #610403,
+    thanks to Flamarion Jorge <flamarilinux@yahoo.com.br>)
+  * Accept -1 as unlimited value for RecursionLimit (Closes: #598219,
+    thanks to Steven Van Ingelgem <steven@salvania.be> for the report)
+  * Fix mismatch of stop runlevel arguments and LSB Default-Stop values
+    (Closes: #607705, #607757)
+  * Fix incorrect default location of PostgreSQL unix socket 
+    (Closes: #612973, thanks to Herwin Weststrate <herwin@snt.utwente.nl>
+    for the report)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 14 Feb 2011 11:13:55 +0100
+
+pure-ftpd (1.0.28-3) unstable; urgency=medium
+
+  * Fix "fails to authenticate, errors in configuration file (SQL)": add
+    quotation marks to pureftpd-pgsql.conf, as explained in README.PGSQL
+    (Closes: #604018, thanks to Gregor Herrmann <gregoa@debian.org> for
+    the patch)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed, 15 Dec 2010 09:15:30 +0100
+
+pure-ftpd (1.0.28-2) unstable; urgency=low
+
+  * fixes crash on stopping server (Closes: #572362)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sun, 14 Mar 2010 14:03:06 +0100
+
+pure-ftpd (1.0.28-1) unstable; urgency=low
+
+  * new upstream release
+  * fixed ignoring of IPV*Only configuration files (Closes: #569588, thanks
+    to Ian Abbott <ian@abbott.org> for the report)
+  * lintian fixes:
+    - shortened first line of package descriptions
+    - bumped up standards version to 3.8.4 (no changes required)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 15 Feb 2010 09:20:53 +0100
+
+pure-ftpd (1.0.27-1) unstable; urgency=low
+
+  * new upstream release
+    - removed PostgreSQL configure patch
+  * lintian fixes:
+    - stop at runlevels 0 and 6 as well
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 03 Dec 2009 10:04:08 +0100
+
+pure-ftpd (1.0.24-1) unstable; urgency=low
+
+  * new upstream release
+    - fixes flaw in new LDAP authentication method BIND allowing
+      connects with empty password
+  * lintian fixes:
+    - made debhelper versioned dependency compliant with debian/compat
+    - added manpage symlinks for all pure-ftpd flavours
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sat, 24 Oct 2009 11:57:08 +0200
+
+pure-ftpd (1.0.23-1) unstable; urgency=low
+
+  * new upstream release
+    - LDAP authentication through binding (Closes: #450843)
+    - fixes response code for overquota (Closes: #500663)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Fri, 23 Oct 2009 17:28:28 +0200
+
+pure-ftpd (1.0.22-4) unstable; urgency=low
+
+  * correct PAM file to adhere PAM mini-policy (Closes: #550161, thanks to
+    Steve Langasek <vorlon@debian.org> for the report)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 08 Oct 2009 12:06:10 +0200
+
+pure-ftpd (1.0.22-3) unstable; urgency=low
+
+  * fixed use of deprecated pam_unix_auth (Closes: #549945, thanks to
+    Louis-David Perron <ldperron@ldperron.com> for the report and the fix)
+  * pure-ftpd-wrapper skips all configuration files which names doesn't
+    consist of alphabetic characters (Closes: #203252)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 06 Oct 2009 22:09:05 +0200
+
+pure-ftpd (1.0.22-2) unstable; urgency=low
+
+  * fixed wrong configuration file name for FSCharset in POD 
+    (Closes: #529419, thanks to Carsten Leonhardt <leo@carotec.de> for the
+    report)  
+  * fixed incorrect provides and dependencies in init.d scripts (
+    (Closes: #542439, thanks to Petter Reinholdtsen <pere@hungry.com> for
+    the patch)
+  * pure-ftpd-control skips symlinks now (Closes: #544892, thanks to
+    Raoul Bhatia <r.bhatia@ipax.at> for the report)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 15 Sep 2009 10:39:56 +0200
+
+pure-ftpd (1.0.22-1) unstable; urgency=low
+
+  * new upstream release
+    - fixes syntax error in LDAP schema (Closes: #403850)
+    - fixes FTPStatus attribute in LDAP schema (Closes: #460038)
+    - removed ACL and UTIME patches
+  * ensure that inetd configuration is updated properly with the correct
+    flavour (Closes: #524419, #429863, #401076, #368042, #318905)
+  * fixed POD error in pure-ftpd-wrapper manual page
+  * lintian fixes (Closes: #525242)
+  	- updated DH_COMPAT and moved to debian/compat
+    - depend on openbsd-inetd | inet-superserver instead of netbase
+    - overrides for manpages in pure-ftpd-common
+    - use ${misc:Depends} in debian/control
+    - bumped up standards version to 3.8.1
+  * removed really old upgrade code from pure-ftpd-common maintainer scripts
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 27 Apr 2009 11:36:28 +0200
+
+pure-ftpd (1.0.21-12) unstable; urgency=low
+
+  * support for character set conversion enabled (Closes: #364063, #409713)
+  * Spanish translation of Debconf templates added (Closes: #520540,
+    thanks to Fernando Gonzàlez de Requena <fgrequena@gmail.com>)
+  * changed Build-Depends from libcap-dev to libcap2-dev (Closes: #492645,
+    thanks to Torsten Werner <twerner@debian.org>)
+  * added status action to init script (Closes: #505982, thanks to Thierry
+    Carrez <thierry.carrez@ubuntu.com> for the patch)
+  * homepage field added to debian/control (Closes: #471813)
+  * standalone mode is now the default (Closes: #506081, thanks to Thierry
+    Carrez <thierry.carrez@ubuntu.com> for the patch)
+  * support for fast shutdown (Closes: #506078, thanks to Thierry
+    Carrez <thierry.carrez@ubuntu.com> for the patch)
+  * applied upstream SITE UTIME / MLST patch (Closes: #499926, thanks to
+    Robert L Mathews <rob@tigertech.com> for the report)
+  * create /var/run/pure-ftpd on the fly (Closes: #506077, thanks to Thierry
+    Carrez <thierry.carrez@ubuntu.com> for the patch)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sun, 22 Mar 2009 22:10:07 +0100
+
+pure-ftpd (1.0.21-11.4) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix pending l10n issues. Debconf translations:
+    - Vietnamese. Closes: #500032
+    - Swedish. Closes: #502969
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 02 Nov 2008 10:48:45 +0100
+
+pure-ftpd (1.0.21-11.3) unstable; urgency=low
+
+  * Non-maintainer upload to fix pending l10n issues.
+  * Debconf translations:
+    - Galician. Closes: #481673
+    - Swedish. Closes: #491782
+    - Finnish. Closes: #493291
+    - Russian. Closes: #493414
+    - Basque. Closes: #494798
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 15 Aug 2008 23:59:22 -0300
+
+pure-ftpd (1.0.21-11.2) unstable; urgency=low
+
+  * Non-maintainer upload to solve release goal.
+  * Add LSB dependency header to init.d scripts (Closes: #460303)
+
+ -- Petter Reinholdtsen <pere@debian.org>  Wed, 19 Mar 2008 23:53:07 +0100
+
+pure-ftpd (1.0.21-11.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * pure-ftpd-common: check presence of update-inetd in prerm,
+    postrm, postinst scripts (Closes: #439626)
+  * Fix lintian warning on "make clean"
+  * Added missing build dependency on po-debconf
+
+ -- Emmanuel Bouthenot <kolter@openics.org>  Sat, 29 Sep 2007 14:16:16 +0200
+
+pure-ftpd (1.0.21-11) unstable; urgency=low
+
+  * Portuguese translation of debconf templates added (Closes: #429291,
+    thanks to Pedro Ribeiro <p.m42.ribeiro@gmail.com>)
+  * dropped alternative build dependency on postgresql-dev 
+    (Closes: #429983, thanks to Lior Kaplan <kaplan@debian.org> for the report)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 21 Jun 2007 21:32:31 +0200
+
+pure-ftpd (1.0.21-10) unstable; urgency=low
+
+  * call update-inetd conditionally in postrm (Closes: #417036, thanks to
+    Michael Ablassmeier <abi@grinser.de> for the report)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 14 May 2007 22:25:57 +0200
+
+pure-ftpd (1.0.21-9) unstable; urgency=low
+
+  * Italian translation of debconf templates added (Closes: #412225,
+    thanks to Luca Monducci <luca.mo@tiscali.it>)
+  * Dutch translation of debconf templates added (Closes: #414750, thanks
+    to Bart Cornelis <cobaco@skolelinux.no>)
+  * use source:Version in control file to make packages binNMU-able (Closes: #423455)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sat, 12 May 2007 15:59:41 +0200
+
+pure-ftpd (1.0.21-8) unstable; urgency=high
+
+  * don't call db_stop at all in the postinst, fixing interaction problems
+    with update-inetd (Closes: #409569, thanks to Steve Langasek
+    <vorlon@debian.org> for the patch)
+  * urgency high for RC bugfix
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue,  6 Feb 2007 13:20:28 +0100
+
+pure-ftpd (1.0.21-7) unstable; urgency=medium
+
+  * avoid builds with ancient libmysqlclient10
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Fri, 26 Jan 2007 12:11:14 +0100
+
+pure-ftpd (1.0.21-6) unstable; urgency=medium
+  
+  * Japanese translation of debconf templates updated (Closes: #394518,
+    thanks to Hideki Yamane <henrich@debian.or.jp>)
+  * German translation of debconf templates updated (Closes: #400287,
+    thanks to Matthias Julius <mdeb@julius-net.net>)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sat, 25 Nov 2006 10:24:29 +0100
+
+pure-ftpd (1.0.21-5) unstable; urgency=low
+
+  * exclude Linux specific package libcap-dev from Build-Depends for other
+    architectures (Closes: #375032, thanks to Petr Salinger
+    <Petr.Salinger@seznam.cz> for the report)
+  * Czech translation of debconf templates updated (Closes: #370307, thanks
+    to Miroslav Kure <kurem@upcase.inf.upol.cz>)
+  * French translation of debconf templates updated (Closes: #370481,
+    thanks to Michel Grentzinger <mic.grentz@online.fr>)
+ 
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon,  5 Jun 2006 15:56:32 +0200
+
+pure-ftpd (1.0.21-4) unstable; urgency=low
+
+  * run debconf-updatepo from clean target
+  * use prompt style for standalone-or-inetd Debconf template
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 15 May 2006 14:39:34 +0200
+
+pure-ftpd (1.0.21-3) unstable; urgency=low
+
+  * rebuild against current mysqlclient library (Closes: #363303, thanks
+    to Christopher Schmidt <crschmidt@crschmidt.net> for the report)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 27 Apr 2006 12:02:53 +0200
+
+pure-ftpd (1.0.21-2) unstable; urgency=low
+
+  * LDAP schema added (Closes: #192425, thanks to Fionn Behrens
+    <fionn@unix-ag.org> for the report)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sun,  9 Apr 2006 21:04:52 +0200
+
+pure-ftpd (1.0.21-1) unstable; urgency=low
+
+  * new upstream release (Closes: #295347), including fix for wrong report
+    of chmod failure (Closes: #355784, thanks to Christer Mjellem Strand
+    <dilldall@bjork.org> for the report)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 21 Mar 2006 14:50:06 +0100
+
+pure-ftpd (1.0.19-8) unstable; urgency=low
+
+  * changed alternative dependency for libmysqlclient-dev to
+    libmysqlclient15-dev (Closes: #343819)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sun, 12 Feb 2006 22:37:59 +0100
+
+pure-ftpd (1.0.19-7) unstable; urgency=low
+
+  * transition to new PostgreSQL architecture
+  * changed alternative dependency for libmysqlclient-dev to
+    libmysqlclient14-dev
+  * converted changelog to UTF-8
+  * Swedish translation of debconf templates added (Closes: #338919,
+    thanks to Daniel Nylander <yeager@lidkoping.net>)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sat, 26 Nov 2005 12:59:18 +0100
+
+pure-ftpd (1.0.19-6) unstable; urgency=low
+
+  * support infinite number for downstream or upstream in UserBandwith and
+    AnonymousBandwidth configuration files (Closes: #331146, thanks to
+    kaouete@crazydwarves.org for the report)
+  * debconf-2.0 alternative dependency added
+  * Vietnamese translation of debconf templates added (Closes: #317619,
+    thanks to Clytie Siddall <clytie@riverland.net.au>)
+  * French translation of debconf templates updated (Closes: #322929,
+    thanks to Michel Grentzinger <mic.grentz@online.fr>)
+  * Czech translation of debconf templates added (Closes: #313438, thanks
+    to Miroslav Kure <kurem@upcase.inf.upol.cz>)
+  * German translation of debconf templates updated (Closes: #330931,
+    thanks to Jens Nachtigall <nachtigall@web.de>)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sun,  2 Oct 2005 00:20:38 +0200
+
+pure-ftpd (1.0.19-5) unstable; urgency=low
+
+  * Optional support for virtual chroots (Closes: #172029, #301721)
+  * Support for PAM_RHOST and PAM_RUSER added (Closes: #292440, thanks to
+    Marek Habersack <grendel@debian.org> for the patch)
+  * Support for large files enabled (Closes: #227466)
+  * /etc/pure-ftpd/conf/UnixAuthentication file added to avoid dangling
+    symbolic link (Closes: #276241, thanks to Maciej Matysiak
+    <phoner.debian.bugs@blah.pl> for the report)
+  * Fixed POSIX ACL incompatibility (Closes: #284804, thanks to Stephan
+    Poehlsen <debianbug@poehlsen.net> for the patch)
+  * German translation of debconf templates added (Closes: #278979, thanks
+    to Jens Nachtigall <nachtigall@web.de>)
+  * Added patch to cope with unusual location for Postgresql include files
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed,  3 Aug 2005 00:02:13 +0200
+
+pure-ftpd (1.0.19-4) unstable; urgency=low
+
+  * Czech translation of debconf templates added (Closes: #273841,
+    thanks to Miroslav Kure <kurem@upcase.inf.upol.cz>)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 28 Sep 2004 18:38:16 +0200
+
+pure-ftpd (1.0.19-3) unstable; urgency=medium
+
+  * Added script pure-ftpd-control as a helper to overcome problems with
+    log rotation (Closes: #271449, thanks to Julien Danjou
+    <acid@debian.org> for the report)
+  * Added note about virtual chroots to README.Debian
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 14 Sep 2004 01:48:07 +0200
+
+pure-ftpd (1.0.19-2) unstable; urgency=medium
+
+  * Added runtime directory to pure-ftpd-common package to avoid silent
+    failure of stop and restart
+  * Japanese translation of debconf templates updated (Closes: #258776)
+  * Added PostgreSQL support (Closes: #177045)
+  * Setup example for PureDB added to README.Debian
+  * Avoid to install README.Windows and README.MacOS-X
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed, 18 Aug 2004 00:51:25 +0200
+
+pure-ftpd (1.0.19-1) unstable; urgency=low
+
+  * new upstream release (Closes: #258395, potential DoS when number of
+    maximum users has been exceeded)
+  * Japanese translation of debconf templates updated (Closes: #225803)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Mon, 21 Jun 2004 16:20:41 +0200
+
+pure-ftpd (1.0.17a-1) unstable; urgency=low
+
+  * new upstream release which fixes anonymous FTP (Closes: #218272)
+    and features atomic uploads
+  * Japanese translation of debconf templates added (Closes: #221480,
+    thanks to Hideki Yamane <henrich@samba.gr.jp> for the submission)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 25 Nov 2003 13:29:32 +0100
+
+pure-ftpd (1.0.16c-3) unstable; urgency=low
+
+  * upstream patch applied which fixes the problem with the missing chroot
+    call (Closes: #219776)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu, 13 Nov 2003 13:12:07 +0100
+
+pure-ftpd (1.0.16c-2) unstable; urgency=low
+
+  * logrotate support for transfer log added (Closes: #218789, thanks to
+    Julien Danjou <acid@debian.org> for the bug report)
+  * added /etc/pure-ftpd/conf/PureDB with the default path for convenience
+  * fixed init script to run at boot time (Closes: #219124, thanks to
+    Dan Harris <dan@aac-services.co.uk> for the bug report/analysis)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed,  5 Nov 2003 02:08:01 +0100
+
+pure-ftpd (1.0.16c-1) unstable; urgency=low
+
+  * new upstream release, fixes PAM login problem (Closes: #217846,
+    thanks to Martin List-Petersen <martin@list-petersen.dk> for the bug
+    report)
+  * changed path for SSL certificate to /etc/ssl/private/pure-ftpd.pem
+    (Closes: #217765, thanks to Martin List-Petersen <martin@list-petersen.dk>)
+  * increased maximum length for the username to 128 characters
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 28 Oct 2003 23:08:42 +0100
+
+pure-ftpd (1.0.16b-1) unstable; urgency=low
+
+  * new upstream release, experimental support for encryption of the
+    control channel using SSL/TLS security mechanisms enabled
+  * updated French debconf templates translation (Closes: #214917, thanks
+    to Michel Grentzinger <mic.grentz@online.fr>)
+  * package descriptions rewritten
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sat, 25 Oct 2003 22:15:42 +0200
+
+pure-ftpd (1.0.16-1) unstable; urgency=low
+
+  * new upstream release
+  * changed default MinUID value to 1000 (Closes: #203231, thanks to
+    Roderick Schertler <roderick@ibcinc.com>) to accomodate to the
+    UID classes described in the Debian Policy
+  * fixed bashism's in maintainer scripts (Closes: #203253, thanks to
+    Roderick Schertler <roderick@ibcinc.com> for the patch)
+  * fixed init scripts so pure-uploadscript can be properly launched
+    (Closes: #175559, thanks to Martin Kos <martin@kos.li>) 
+  * switched to gettext-based debconf templates and added French
+    translation (Closes: #207107, #207108, thanks to Michel Grentzinger
+    <mic.grentz@online.fr> for the patch)
+  * label daemons differently so init scripts can pick the right flavour
+    (Closes: #171683)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 30 Sep 2003 17:09:46 +0200
+
+pure-ftpd (1.0.15-1) unstable; urgency=low
+
+  * new upstream release, which fixes the problem with creating
+    directories in chroot mode (Closes: #184349) and changes the copyright
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 17 Jun 2003 12:01:50 +0200
+
+pure-ftpd (1.0.14-4) unstable; urgency=low
+
+  * avoid hanging of postinst script by calling db_stop (Closes: #184254,
+    thanks to Anthony DeRobertis <asd@suespammers.org> for the bug report)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sat, 22 Mar 2003 16:25:02 +0100
+
+pure-ftpd (1.0.14-3) unstable; urgency=low
+
+  * ensure that the MySQL/LDAP configuration files are readable only by
+    root (Closes: #180288, thanks to Szilveszter Farkas
+    <linux@psoftwares.hu> for the bug report)
+  * use /etc/default/pure-ftpd-common instead of /etc/default/pure-ftpd
+    and for all flavours (Closes: #179763, thanks to Martin List-Petersen
+    <martin@list-petersen.dk> for the bug report)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sun,  9 Feb 2003 15:59:21 +0100
+
+pure-ftpd (1.0.14-2) unstable; urgency=low
+
+  * added pure-authd binary to all flavours (thanks to Mario J. Barchéin
+    Molina <mario@judas.2y.net> for reporting the omission)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Sat,  1 Feb 2003 15:28:51 +0100
+
+pure-ftpd (1.0.14-1) unstable; urgency=low
+
+  * new upstream release, changed wrapper to accept an arbitrary string
+    for the ForcePassiveIP (-P) option, used new --with-privsep ./configure
+    option
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed, 29 Jan 2003 10:37:06 +0100
+
+pure-ftpd (1.0.13a-6) unstable; urgency=low
+
+  * renamed configuration directive LDAPAuthentication to LDAPConfigFile
+    and fixed the configuration infrastructure for pure-ftpd-ldap
+  * added generic postinst for all pure-ftpd flavours and added check for
+    the existence of pure-ftpwho to pure-ftpd-common postinst (Closes: #171725)
+  * reworked build and install of docs (Closes: #177029, thanks to Wayne
+    Conrad <wconrad@yagni.com> for the bug report)
+  * fixed location of PureDB password file and database in pure-pw manual page
+  * fixed typo in pure-ftpd-wrapper's manual page
+    
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Fri, 17 Jan 2003 12:55:00 +0100
+
+pure-ftpd (1.0.13a-5) unstable; urgency=low
+
+  * removed condition from init script(s) which renders these useless
+    (Closes: #175224, thanks to Oleksandr Moskalenko <malex@tagancha.org>)
+  * documented relationship of files in /etc/pure-ftpd/auth and
+    authentication methods used by the invoked pure-ftpd process in
+    pure-ftpd-wrapper manual page
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Fri,  3 Jan 2003 23:01:33 +0100
+
+pure-ftpd (1.0.13a-4) unstable; urgency=low
+
+  * fixed wrong commandline option for PassivePortRange (Closes: #174143,
+    thanks to David C Young <dcyoung@pobox.com>)
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed, 25 Dec 2002 02:10:51 +0100
+
+pure-ftpd (1.0.13a-3) unstable; urgency=low
+
+  * moved /etc/ftpusers into the server packages to avoid clashes with
+    other FTP daemons
+  * ensure that we default to inetd mode in init script
+  * added LDAPAuthentication directive to pure-ftpd-wrapper
+    (Closes: #171898, thanks to Mark Verboom <mark@verboom.net>)
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Thu,  5 Dec 2002 23:07:57 +0100
+
+pure-ftpd (1.0.13a-2) unstable; urgency=medium
+
+  * entry for inetd contained wrong script (Closes: #171646, thanks to
+    Marek Habersack <grendel@debian.org>)
+  * display daemon start message only if running in standalone mode
+    (Closes: #171647, thanks to Marek Habersack <grendel@debian.org>)
+  * fixed bashism in init scripts (Closes: #171644, thanks to Marek
+    Habersack <grendel@debian.org>)
+  * removed trailing dot in first description line of each package
+  
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Wed,  4 Dec 2002 12:25:56 +0100
+
+pure-ftpd (1.0.13a-1) unstable; urgency=low
+
+  * First official Debian release.
+
+ -- Stefan Hornburg (Racke) <racke@linuxia.de>  Tue, 26 Nov 2002 16:24:51 +0100

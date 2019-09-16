@@ -1,0 +1,192 @@
+#
+#    Translators, if you are not familiar with the PO format, gettext
+#    documentation is worth reading, especially sections dedicated to
+#    this format, e.g. by running:
+#         info -n '(gettext)PO Files'
+#         info -n '(gettext)Header Entry'
+#    Some information specific to po-debconf are available at
+#            /usr/share/doc/po-debconf/README-trans
+#         or http://www.debian.org/intl/l10n/po-debconf/README-trans#
+#    Developers do not need to manually edit POT or PO files.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pure-ftpd_1.0.21-4\n"
+"Report-Msgid-Bugs-To: pure-ftpd@packages.debian.org\n"
+"POT-Creation-Date: 2010-01-11 09:05+0000\n"
+"PO-Revision-Date: 2006-05-19 06:21+0200\n"
+"Last-Translator: Michel Grentzinger <mic.grentz@online.fr>\n"
+"Language-Team: French <debian-l10n-french@lists.debian.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#: ../pure-ftpd-common.templates:1001
+msgid "inetd, standalone"
+msgstr "Inetd, Serveur autonome"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid "Run pure-ftpd from inetd or as a standalone server:"
+msgstr "Méthode de lancement de pure-ftpd :"
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Pure-ftpd can be run from inetd or as a standalone daemon. Using inetd is a "
+"suitable option for small ftp servers because the inetd super-server will "
+"only launch pure-ftpd to handle incoming connections. Standalone operation "
+"is more efficient for busy ftp sites."
+msgstr ""
+"Pure-ftpd peut être lancé depuis inetd ou comme un démon autonome. Inetd est "
+"un choix adapté pour les petits serveurs FTP car le superserveur inetd "
+"lancera pure-ftpd uniquement pour traiter les connexions entrantes. Le mode "
+"autonome est plus efficace pour les sites FTP fortement chargés."
+
+#. Type: select
+#. Description
+#: ../pure-ftpd-common.templates:1002
+msgid ""
+"Keep in mind that a few options only work in standalone mode, such as "
+"limiting connections per-IP and binding the server to a specific IP address."
+msgstr ""
+"Gardez à l'esprit que quelques options ne fonctionnent qu'en mode autonome, "
+"comme la limitation des connexions selon l'IP et l'attachement du serveur à "
+"une adresse IP spécifique."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid "Do you want pure-ftpwho to be installed setuid root?"
+msgstr "Pure-ftpwho doit-il s'exécuter avec les droits du superutilisateur ?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"The pure-ftpwho program only works with root privileges. Since it's a fairly "
+"trivial program, this poses little security risk. Still, it is only "
+"recommended that you install any program setuid root if you need it."
+msgstr ""
+"Le programme pure-ftpwho ne fonctionne qu'avec les droits du "
+"superutilisateur. Comme il s'agit d'un programme sans originalité, cela ne "
+"pose guère de problème de sécurité. Néanmoins, il est toujours recommandé de "
+"n'installer des programmes « setuid root » que si vous en avez besoin."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:2001
+msgid ""
+"You can always change your mind later by reconfiguring this package with "
+"\"dpkg-reconfigure pure-ftpd-common\"."
+msgstr ""
+"Vous pouvez toujours changer d'avis plus tard et reconfigurer ce paquet avec "
+"« dpkg-reconfigure pure-ftpd-common »."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid "Your installation uses an obsolete configuration method"
+msgstr "Méthode de configuration obsolète"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Older versions of the pure-ftpd debian package used command-line options "
+"specified in /etc/default/pure-ftpd. This has been changed because there was "
+"no easy way to use these options when the daemon was spawned from inetd."
+msgstr ""
+"Les anciennes versions du paquet Debian pure-ftpd utilisaient des options en "
+"ligne de commande spécifiées dans /etc/default/pure-ftpd. Ceci a été changé "
+"car il n'y avait aucune manière simple d'utiliser ces options lorsque le "
+"démon était lancé par inetd."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:3001
+msgid ""
+"Pure-ftpd now uses the /etc/pure-ftpd.conf file (via pure-config.pl) for "
+"configuration in either standalone or inetd mode. You should check that any "
+"customization you've made in the /etc/default/pure-ftpd OPTIONS are "
+"reflected in /etc/pure-ftpd.conf, as it is not possible for the moment to "
+"use a way to do this automatically that would work for all cases. You can "
+"then delete the unused OPTIONS line to avoid seeing this message in the "
+"future."
+msgstr ""
+"Pure-ftpd utilise dorénavant le fichier /etc/pure-ftpd.conf (via pure-config."
+"pl) pour configurer aussi bien le mode autonome que le mode inetd. Vous "
+"devriez vérifier que toutes les modifications que vous avez effectuées dans /"
+"etc/default/pure-ftpd OPTIONS sont bien présentes dans /etc/pure-ftpd.conf "
+"puisqu'il est pour l'instant impossible d'utiliser une méthode qui "
+"fonctionnerait dans tous les cas pour faire ceci automatiquement. Vous "
+"pouvez ensuite supprimer la ligne OPTIONS pour éviter l'apparition de ce "
+"message à l'avenir."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid "Your old pure-ftpd configuration from inetd.conf has been saved"
+msgstr ""
+"Sauvegarde de l'ancienne configuration de pure-ftpd à partir d'inetd.conf"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:4001
+msgid ""
+"You are upgrading an old version of the pure-ftpd debian package that caused "
+"any configuration that was in /etc/inetd.conf to be lost.  Your old "
+"configuration has been saved in /etc/inetd.conf-pureftpd."
+msgstr ""
+"Vous mettez à jour une ancienne version du paquet Debian pure-ftpd ayant "
+"provoqué la perte de la configuration contenue dans /etc/inetd.conf. Votre "
+"ancienne configuration a été sauvegardée dans /etc/inetd.conf-pureftpd."
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid "Default MinUID value has been changed to 1000"
+msgstr "Valeur par défaut MinUID établie à 1000"
+
+#. Type: note
+#. Description
+#: ../pure-ftpd-common.templates:5001
+msgid ""
+"The default value for the -u flag stored in /etc/pure-ftpd/conf/MinUID has "
+"been changed from 100 to 1000 in order to comply with the Debian policy. "
+"This may break your Pure-FTPd setup if you are using virtual users with an "
+"uid below 1000."
+msgstr ""
+"La valeur par défaut destinée à l'option -u et conservée dans /etc/pure-ftpd/"
+"conf/MinUID a été changée de 100 en 1000 afin de se conformer à la charte "
+"Debian. Cela peut perturber la configuration de Pure-FTPd si vous avez des "
+"utilisateurs virtuels dont l'UID est inférieur à 1000."
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid "Enable virtual chroots ?"
+msgstr "Faut-il activer les environnement fermés (« chroots ») virtuels ?"
+
+#. Type: boolean
+#. Description
+#: ../pure-ftpd-common.templates:6001
+msgid ""
+"Chrooted users are usually restricted to their home directory. With virtual "
+"chroots symbolic links are always followed, even if they are pointing to "
+"directories not located in the user's home directory.  This is useful for "
+"having shared directories like a symbolic link to /var/incoming in every "
+"home directory."
+msgstr ""
+"Dans les environnements fermés d'exécution (« chroot »), les utilisateurs "
+"sont en général cantonnés dans leur répertoire personnel. Avec les "
+"environnements fermés virtuels, les liens symboliques sont toujours suivis, "
+"même s'ils pointent vers un emplacement situé en dehors du répertoire "
+"personnel de l'utilisateur. Ceci est pratique pour utiliser des répertoires "
+"partagés comme un lien symbolique vers /var/incoming dans chaque répertoire "
+"utilisateur."

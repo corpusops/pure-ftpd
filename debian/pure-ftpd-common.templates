@@ -1,0 +1,65 @@
+Template: pure-ftpd/standalone-or-inetd
+Type: select
+_Choices: inetd, standalone
+Default: standalone
+_Description: Run pure-ftpd from inetd or as a standalone server:
+ Pure-ftpd can be run from inetd or as a standalone daemon. Using inetd is
+ a suitable option for small ftp servers because the inetd super-server
+ will only launch pure-ftpd to handle incoming connections. Standalone
+ operation is more efficient for busy ftp sites.
+ .
+ Keep in mind that a few options only work in standalone mode, such as
+ limiting connections per-IP and binding the server to a specific IP
+ address.
+
+Template: pure-ftpd/ftpwho-setuid
+Type: boolean
+Default: false
+_Description: Do you want pure-ftpwho to be installed setuid root?
+ The pure-ftpwho program only works with root privileges. Since it's a
+ fairly trivial program, this poses little security risk. Still, it is only
+ recommended that you install any program setuid root if you need it.
+ .
+ You can always change your mind later by reconfiguring this package with
+ "dpkg-reconfigure pure-ftpd-common".
+
+Template: pure-ftpd/config-obsolete-note
+Type: note
+_Description: Your installation uses an obsolete configuration method
+ Older versions of the pure-ftpd debian package used command-line options
+ specified in /etc/default/pure-ftpd. This has been changed because there
+ was no easy way to use these options when the daemon was spawned from
+ inetd.
+ .
+ Pure-ftpd now uses the /etc/pure-ftpd.conf file (via pure-config.pl) for
+ configuration in either standalone or inetd mode. You should check that
+ any customization you've made in the /etc/default/pure-ftpd OPTIONS are
+ reflected in /etc/pure-ftpd.conf, as it is not possible for the moment
+ to use a way to do this automatically that would work for all cases.
+ You can then delete the unused OPTIONS line to avoid seeing this message
+ in the future.
+
+Template: pure-ftpd/saved-inetd-config
+Type: note
+_Description: Your old pure-ftpd configuration from inetd.conf has been saved
+ You are upgrading an old version of the pure-ftpd debian package that
+ caused any configuration that was in /etc/inetd.conf to be lost.  Your old
+ configuration has been saved in /etc/inetd.conf-pureftpd.
+
+Template: pure-ftpd/minuid
+Type: note
+_Description: Default MinUID value has been changed to 1000
+ The default value for the -u flag stored in /etc/pure-ftpd/conf/MinUID has
+ been changed from 100 to 1000 in order to comply with the Debian policy.
+ This may break your Pure-FTPd setup if you are using virtual users with an
+ uid below 1000.
+
+Template: pure-ftpd/virtualchroot
+Type: boolean
+Default: false
+_Description: Enable virtual chroots ?
+ Chrooted users are usually restricted to their home directory.
+ With virtual chroots symbolic links are always followed, even if they are
+ pointing to directories not located in the user's home directory. 
+ This is useful for having shared directories like a symbolic link
+ to /var/incoming in every home directory.

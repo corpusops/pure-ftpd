@@ -39,3 +39,5 @@ src/pure-quotacheck
 src/pure-statsdecode
 src/pure-uploadscript
 stamp-h1
+debian/files
+/local
