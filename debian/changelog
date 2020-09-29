@@ -1,4 +1,34 @@
-pure-ftpd (1.0.49-eoan-44ubuntu38) eoan; urgency=medium
+pure-ftpd (1.0.49-focal-44ubuntu43) focal; urgency=medium
+
+  * packaging for focal
+
+ -- kiorky <kiorky@cryptelium.net>  Fri, 25 Sep 2020 00:14:17 +0200
+
+pure-ftpd (1.0.49-focal-44ubuntu42) focal; urgency=medium
+
+  * packaging for bionic
+
+ -- kiorky <kiorky@cryptelium.net>  Fri, 25 Sep 2020 00:14:11 +0200
+
+pure-ftpd (1.0.49-bionic-44ubuntu41) bionic; urgency=medium
+
+  * packaging for xenial
+
+ -- kiorky <kiorky@cryptelium.net>  Fri, 25 Sep 2020 00:14:04 +0200
+
+pure-ftpd (1.0.49-xenial-44ubuntu40) xenial; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Fri, 25 Sep 2020 00:13:50 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu39) trusty; urgency=medium
+
+  * packaging for trusty
+
+ -- kiorky <kiorky@cryptelium.net>  Fri, 25 Sep 2020 00:13:11 +0200
+
+pure-ftpd (1.0.49-trusty-44ubuntu38) trusty; urgency=medium
 
   * packaging for eoan
 

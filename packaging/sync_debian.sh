@@ -6,12 +6,13 @@ export GPG_AGENT_INFO=${GPG_AGENT_INFO:-${HOME}/.gnupg/S.gpg-agent:0:1}
 export PACKAGE="pure-ftpd"
 export PPA="${PACKAGE}"
 export DEBEMAIL=${DEBEMAIL:-kiorky@cryptelium.net}
-export KEY="${KEY:-0x5616F8C2}"
+export KEY="${KEY:-4F01C4A0773018B2CD18F4F2C19BD8A95616F8C2}"
 export VER=${VER:-"$(grep "#define NGINX_VERSION" src/core/nginx.h 2>/dev/null|awk '{print $3}'|sed 's/"//g')"}
 export VER="1.0.49"
 export FLAVORS="vivid trusty precise"
 export FLAVORS="trusty xenial bionic eoan"
-export RELEASES="${RELEASES:-"experimental|stable|unstable|precise|trusty|utopic|vivid|oneric|wily|xenial|artful|bionic|eoan"}"
+export FLAVORS="trusty xenial bionic focal"
+export RELEASES="${RELEASES:-"experimental|stable|unstable|precise|trusty|utopic|vivid|oneric|wily|xenial|artful|bionic|eoan|focal"}"
 if [ -e "${W}/packaging/debian/" ];then
     rsync -av "${W}/packaging/debian/" "${W}/debian/"
 fi
